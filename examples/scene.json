@@ -1,0 +1,29 @@
+{
+  "version": "0.1",
+  "camera": {
+    "position": [0, 1.6, 4],
+    "look_at": [0, 1.6, 0],
+    "focal_mm": 50,
+    "aperture_f": 2.0
+  },
+  "subjects": [
+    {
+      "id": "hero",
+      "kind": "human",
+      "position": [0, 0, 0],
+      "height": 1.8,
+      "rotation_y_deg": 0,
+      "tags": ["red coat", "short dark hair"]
+    },
+    {
+      "id": "villain",
+      "kind": "human",
+      "position": [1.5, 0, -6],
+      "height": 1.8,
+      "rotation_y_deg": 200,
+      "tags": ["grey hood"]
+    }
+  ],
+  "light": { "key_direction": "back", "intensity": "high" },
+  "style": { "medium": "photoreal", "aspect": "16:9" }
+}
