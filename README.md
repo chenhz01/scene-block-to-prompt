@@ -2,6 +2,8 @@ Turn 3D staging parameters into image-generation control instructions. Describe 
 
 If you need reproducible framing (comics, storyboards, character consistency, previs), stage first, then compile. If you enjoy prompt roulette, move along.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 AI image/video creation is converging on "stage the scene in 3D first, generate second" — one art IDE (storytold/artcraft) built its whole workflow around it: 3D set → camera control → controlled generation, replacing prompt lottery with previs discipline. The overlooked angle is that the *pipeline* — deterministic compilation from geometry to generation controls — doesn't need an art IDE, a 3D engine, or a proprietary format. A small, versioned, human-editable intermediate format plus a transparent compiler gives anyone the same control surface.
